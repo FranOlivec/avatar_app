@@ -2,5 +2,5 @@
 <p>Find me in app/views/avatars/index.html.erb</p>
 
 <% @imagenes.each do |x|%>
-    <%= image_tag x.url_image%>
+    <%= image_tag x.url_image, size: "100x100" %>
 <%end%>
